@@ -1,4 +1,4 @@
-const API = import.meta.env.VITE_API_URL || 'http://localhost:5000/api';
+const API = 'https://digisign-backend-l83e.onrender.com';
 
 export const register = async (data) => {
   const res = await fetch(`${API}/auth/register`, {
