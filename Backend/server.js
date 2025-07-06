@@ -7,7 +7,7 @@ const app = express();
 
 // CORS: Allow frontend origin only
 app.use(cors({
-  origin: "https://your-frontend.onrender.com", // ✅ Replace this with your actual frontend URL
+  origin: "https://digisign-frontend.onrender.com", // ✅ Replace this with your actual frontend URL
   credentials: true
 }));
 
