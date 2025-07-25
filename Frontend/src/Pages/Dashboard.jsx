@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React from 'react';
 import { useNavigate, Link } from 'react-router-dom';
 import { Upload, FileText, History } from 'lucide-react';
@@ -53,9 +54,9 @@ const Dashboard = () => {
       <Toaster position="top-center" />
 
       {/* Navbar */}
-      <header className="flex items-center justify-between px-6 py-4 shadow-md bg-white">
+      <header className="flex items-center justify-between px-6 py-4 bg-white shadow-md">
         <div className="flex items-center gap-2">
-          <FileText className="text-blue-600 w-8 h-8" />
+          <FileText className="w-8 h-8 text-blue-600" />
           <span className="text-3xl font-bold text-black">DigiSign</span>
         </div>
         <button
